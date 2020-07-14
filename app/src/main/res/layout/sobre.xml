@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6ECF9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:orientation="vertical"
+        android:padding="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Olá, querido usuário!"
+            android:textColor="#000000"
+            android:textSize="29dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="Esse aplicativo é voltado para aqueles que não possuem máscaras nem álcool em gel, mostrando uma localização proxima de sua residência para que possa retira-los."
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnEntrarIni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/borda"
+            android:text="Avançar" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+
