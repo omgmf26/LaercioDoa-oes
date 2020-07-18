@@ -54,7 +54,7 @@
 
 
         <EditText
-            android:id="@+id/Nome"
+            android:id="@+id/NomeCad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -64,7 +64,7 @@
 
 
         <EditText
-            android:id="@+id/Email"
+            android:id="@+id/EmailCad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -74,7 +74,7 @@
 
 
         <EditText
-            android:id="@+id/Senha"
+            android:id="@+id/SenhaCad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -84,14 +84,14 @@
 
 
         <Button
-            android:id="@+id/btnEntrarCad"
+            android:id="@+id/btnRegistrarCad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="70dp"
             android:layout_marginRight="30dp"
             android:background="@drawable/borda"
-            android:text="ENTRAR" />
+            android:text="REGISTRAR" />
 
 
     </LinearLayout>
